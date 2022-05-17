@@ -1,8 +1,10 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 const Addstudent = () => {
   return (
     <div>
+        <Navbar/>
         <div className="container">
     <div className="row">
         <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -21,7 +23,7 @@ const Addstudent = () => {
                 </div>
                 <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" className="form-label">UNIVERSITY REGNO:</label>
-                    <input type="text" className="form-control"/>
+                    <input type="text" className="form-control"/> 
                 </div>
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <label for="" className="form-label">COLLEGE:</label>
@@ -34,7 +36,7 @@ const Addstudent = () => {
         </div>
     </div>
 </div>
-    </div>
+</div>
   )
 }
 
